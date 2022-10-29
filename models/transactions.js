@@ -12,7 +12,7 @@ module.exports = (sequelize, DataTypes) => {
     static associate(models) {
       // define association here
     }
-  };
+  }
   Transactions.init({
     hash: DataTypes.STRING,
     nonce: DataTypes.INTEGER,
